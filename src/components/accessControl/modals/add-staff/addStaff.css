@@ -1,0 +1,183 @@
+.access_control_add_staff_modal {
+    padding: 15px;
+}
+
+.access_control_add_staff_modal_title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px!important;
+}
+
+.access_control_add_staff_modal_subline {
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin-top: 10px;
+    background-color: #E5EAFA;
+}
+
+.access_control_add_staff_modal_body {
+    display: grid;
+    grid-template-columns: 500px 420px 400px ;
+    grid-column-gap: 10px;
+    margin-top: 18px;
+}
+
+.access_control_add_staff_modal_body_item {
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    /*margin-bottom: 12px;*/
+
+}
+
+.access_control_add_staff_modal_body_item_1{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+}
+
+.access_control_add_staff_modal_body_item_title {
+    display: inline;
+    padding: 0 5px !important;
+    position: absolute;
+    top: -15px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.access_control_add_staff_modal_body_item_2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 20px;
+}
+.access_control_add_staff_modal_body_item_3_notif {
+    background-color: #E5F6FF;
+    border-radius: 5px;
+    color: #5A5D62;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.access_control_add_staff_modal_body_item_3_notif p {
+    margin-bottom: 13px !important;
+}
+
+
+.staff_buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.access_control_add_staff_modal_body_item_3_submit_button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.access_control_add_staff_modal_body_item_3_submit_button:hover {
+    background: #29B85D;
+    color: #FFFFFF;
+}
+.addStaff_cancel_button{
+    height: 40px;
+    border: none;
+    background: #FFDEDE;
+    color: #AC0000;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.addStaff_cancel_button:hover{
+    background: #DB4040;
+    color: #FFFFFF;
+}
+
+
+.access_control_add_staff_modal_body_item_3_submit_button:hover {
+    opacity: 0.9;
+}
+.access_time_label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* .load  {
+    background-color: rgba(64, 64, 64, 64);
+    outline: none;
+    border-radius: 0!important;
+} */
+
+
+.load{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 50;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 5;
+    transition: opacity 0.3s;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1470px) {
+    .access_control_add_staff_modal {
+        padding: 10px;
+    }
+    .access_control_add_staff_modal_title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .access_control_add_staff_modal_subline {
+        margin-top: 5px;
+    }
+
+    .access_control_add_staff_modal_body {
+        display: grid;
+        grid-template-columns: 300px 380px 305px ;
+        grid-column-gap: 8px;
+        margin-top: 16px;
+    }
+    .ant-select-multiple .ant-select-selector {
+        /*height: 35px;*/
+        /*max-height: 90px;*/
+        /*overflow: scroll;*/
+    }
+    .ant-picker{
+        height: 35px!important;
+    }
+    .addStaff_cancel_button{
+        height: 35px!important;
+    }
+    .access_control_add_staff_modal_body_item_3_submit_button {
+        height: 35px!important;
+    }
+    .staff_buttons{
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+

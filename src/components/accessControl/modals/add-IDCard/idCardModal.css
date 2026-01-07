@@ -1,0 +1,38 @@
+.access_control_add_staff_terminal_modal {
+    width: 480px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.access_control_add_staff_terminal_modal_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px !important;
+}
+
+.access_control_add_staff_terminal_modal_body_buttons {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 10px;
+    /*margin-top: 30px;*/
+}
+.seave_idcard_modal_button{
+    height: 40px;
+    padding: 0px 55px;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+.seave_idcard_modal_button:hover{
+    background: #29B85D;
+    color: #FFFFFF;
+}

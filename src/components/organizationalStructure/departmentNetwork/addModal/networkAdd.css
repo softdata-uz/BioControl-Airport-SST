@@ -1,0 +1,108 @@
+.network_add {
+    width: 450px;
+    /*height: 400px;*/
+}
+
+.network_add_title {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E3E6;
+}
+
+.network_add_title_left h2 {
+    color: black;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.network_add_title_right {
+    display: flex;
+    align-items: center;
+}
+
+.network_add_body {
+    padding: 10px 10px;
+}
+
+.network_add_body_form_inner1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.network_add_body_form_field {
+    width: 100%;
+}
+
+.network_add_body_form_field_span {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 18.2px */
+}
+
+.network_add_body_form_field .ant-picker {
+    width: 100% !important;
+}
+
+.network_add_body_form_inner2 {
+    border-bottom: 1px solid #E0E3E6;
+}
+
+.network_add_body_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.network_add_body_add_button {
+    height: 35px;
+    padding: 0px 30px;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.network_add_body_add_button:hover {
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+
+
+.network_add_body_check {
+    margin-top: 10px;
+}
+.network_add_body_check div{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 18.2px */
+}
+.network_add_body_check_group{
+    margin-top: 10px;
+}
+.network_add_body_check_group .ant-radio-group{
+    margin: 0!important;
+}

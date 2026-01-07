@@ -1,0 +1,23 @@
+.not-found {
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+}
+
+.not-found h1 {
+    font-size: 60px;
+}
+
+.not-found button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: crimson;
+    cursor: pointer;
+}

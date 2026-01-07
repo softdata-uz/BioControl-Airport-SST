@@ -1,0 +1,95 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.darkModeColor {
+  color: #FFFFFF !important;
+}
+.darkModeBackground{
+  background: #1E1E1E !important;
+}
+.darkModeLayautBg{
+  background: #222222 !important;
+}
+.darkModeCard{
+  background: #343D50 !important;
+}
+.darkModeBorder{
+  border: 1px solid #1E1E1E !important;
+}
+.darkModeInputBackgraund{
+  background-color: #282828!important;
+}
+
+.darkModeLineBackground{
+  background-color: #FFFFFF!important;
+}
+
+.filter_icon{
+  filter: invert(99%) sepia(1%) saturate(3349%) hue-rotate(221deg) brightness(117%) contrast(100%);
+}
+
+
+
+
+
+
+/* modal  */
+
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*border: 1px solid #ccc;*/
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 100;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal_form h1 {
+  text-align: center;
+}
+
+.siderBackColor {
+  /*overflow-y: hidden!important;*/
+  /*overflow-x: hidden;*/
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+

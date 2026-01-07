@@ -1,0 +1,95 @@
+.add_relatives_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.add_relatives_table td{
+    border: 1px solid #ddd;
+    padding:  8px;
+}
+.add_relatives_table th{
+    border: 1px solid #ddd;
+    padding:  8px;
+}
+
+.add_relatives_table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.table_index{
+    width: 80px;
+}
+
+.table_action{
+    width: 180px;
+    text-align: right!important;
+}
+.action_delete{
+    display: flex;
+    justify-content: center;
+}
+
+.add_relatives_table .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+    height: 30px!important;
+}
+.add_relatives_table .ant-picker{
+    height: 31px;
+}
+.table-delete-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 32px;
+    border-radius: 4px;
+    background: #EB4143;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.relatives_table_add_icon{
+   text-align: center;
+    background: #FFFFFF;
+}
+.table-add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 32px;
+    border-radius: 4px;
+    background: #26BF56;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}

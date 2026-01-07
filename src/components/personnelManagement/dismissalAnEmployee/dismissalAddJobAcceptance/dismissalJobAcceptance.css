@@ -1,0 +1,182 @@
+
+.dismissal_job_acceptance_title{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.dismissal_job_acceptance_title_line{
+    width: 3px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 90px;
+    background: #26BF56;
+    margin-right: 10px;
+}
+
+.dismissal_job_acceptance_form{
+
+}
+.dismissal_job_acceptance_form_inner1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.dismissal_job_acceptance_form_inner12{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.dismissal_job_acceptance_form_field{
+    width: 100%;
+}
+.dismissal_job_acceptance_form_field_span{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 18.2px */
+}
+.dismissal_job_acceptance_form_field .ant-picker{
+    width: 100% !important;
+}
+
+.dismissal_job_acceptance_form_inner2{
+    margin-top: 10px;
+}
+.dismissal_job_acceptance_form_inner2_inner{
+    display: flex;
+    align-items: center;
+}
+.dismissal_job_acceptance_form_inner2_inner_button{
+    display: flex;
+    height: 35px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    background:#F7F7F8;
+
+    color: #636C79;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.dismissal_job_acceptance_form_inner2_inner_button:hover{
+    color: #FFFFFF;
+    background:#1C232C;
+}
+.dismissal_job_acceptance_form_inner2_inner_button{
+    margin-left: 10px;
+}
+.dismissal_job_acceptance_form_inner2_inner_button:first-child{
+    margin: 0;
+}
+
+.dismissal_job_acceptance_form_inner3{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.dismissal_job_acceptance_form_inner3_inner_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.dismissal_job_acceptance_form_inner4{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.dismissal_job_acceptance_form_inner11{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.dismissal_job_acceptance_form_inner5{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.dismissal_job_acceptance_form_inner5_date{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.dismissal_job_acceptance_form_inner6{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.dismissal_job_acceptance_form_inner7{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.dismissal_job_acceptance_form_inner8{
+    margin-top: 10px;
+}
+.dismissal_job_acceptance_form_inner8_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+.dismissal_job_acceptance_form_inner8_right{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background:#F7F7F8;
+}
+@media(max-width: 1500px) {
+    .dismissal_job_acceptance_form_inner8_right{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.dismissal_job_acceptance_form_inner8 .dismissal_job_acceptance_form_field .ant-form-item{
+ margin-bottom: 0!important;
+}
+
+.dismissal_job_acceptance_form_field .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: #F1F2F4!important;
+
+}
+
+.dismissal_job_acceptance_form_field .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector
+.ant-select-selection-item{
+    color: rgba(0, 0, 0, 0.25)!important;
+}
+
+
+.dismissal_job_acceptance_form_viewButton{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add_employee_disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}

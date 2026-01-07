@@ -1,0 +1,127 @@
+.modal_add_employee {
+    width: 500px;
+    height: 590px;
+}
+
+.modal_add_employee_header {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.modal_add_employee_header_left{
+    display: flex;
+    align-items: center;
+}
+.modal_add_employee_header_left_total{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #636C79;
+    margin-left: 10px;
+    height: 30px;
+    color: #FFFFFF;
+}
+.modal_add_employee_header span{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.modal_add_employee_line{
+    width: 100%;
+    height: 1px;
+    background : #E0E3E6;
+}
+.modal_add_employee_search{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.modal_add_employee_search_left{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #E0E3E6;
+    background: #FFF;
+    height: 35px;
+    padding: 0 10px;
+    color: #636C79;
+}
+.modal_add_employee_search_left input{
+    border: 0;
+    outline: none;
+    margin-left: 5px;
+    color:#636C79;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal_add_employee_search_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+    background: #ABFCC8;
+    color: #00752A;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.modal_add_employee_search_right:hover{
+    background: #29B85D;
+    color: #FFFFFF;
+}
+.modal_add_employee_search_right span{
+    margin-left: 5px;
+}
+.modal_add_employee_management{
+    padding: 0 15px;
+}
+.modal_add_employee_management_inner{
+    display: flex;
+    width: 141px;
+    height: 35px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background:#636C79;
+
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+.modal_add_employee_body{
+    height: calc(100% - 100px) !important;
+    padding: 15px;
+    position: relative;
+}
+.modal_add_employee_body_table{
+    height: calc(100% - 30px);
+    overflow-y: auto;
+}
+.modal_add_employee_body_pagination{
+
+}

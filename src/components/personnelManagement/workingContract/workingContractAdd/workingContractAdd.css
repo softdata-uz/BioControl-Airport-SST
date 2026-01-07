@@ -1,0 +1,178 @@
+
+.working_contract_add_title{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.working_contract_add_title_line{
+    width: 3px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 90px;
+    background: #26BF56;
+    margin-right: 10px;
+}
+
+.working_contract_add_form{
+
+}
+.working_contract_add_form_inner1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.working_contract_add_form_inner18{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.working_contract_add_form_inner17{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.working_contract_add_form_field{
+    width: 100%;
+}
+.working_contract_add_form_field_span{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 18.2px */
+}
+
+.working_contract_add_form_field .ant-picker{
+    width: 100% !important;
+}
+
+.working_contract_add_form_inner2{
+    margin-top: 10px;
+}
+.working_contract_add_form_inner2_inner{
+    display: flex;
+    align-items: center;
+}
+.working_contract_add_form_inner2_inner_button{
+    display: flex;
+    height: 35px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    background:#F7F7F8;
+
+    color: #636C79;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.working_contract_add_form_inner2_inner_button:hover{
+    color: #FFFFFF;
+    background: #b3b3b4;
+}
+.working_contract_add_form_inner2_inner_button_active{
+    display: flex;
+    height: 35px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    color: #FFFFFF;
+    background:#1C232C;
+}
+
+.working_contract_add_form_inner2_inner_button{
+    margin-left: 10px;
+}
+.working_contract_add_form_inner2_inner_button_active{
+    margin-left: 10px;
+}
+.working_contract_add_form_inner2_inner_button:first-child{
+    margin: 0;
+}
+.working_contract_add_form_inner2_inner_button_active:first-child{
+    margin: 0;
+}
+.working_contract_add_form_inner3{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.working_contract_add_form_inner3_inner_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.working_contract_add_form_inner4{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.working_contract_add_form_inner5{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.working_contract_add_form_inner5_date{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.working_contract_add_form_inner6{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.working_contract_add_form_inner7{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.disabled{
+    color: #636C79!important;
+}
+.working_contract_add_form_viewButton{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.working_contract_add_form_field .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    background: #F1F2F4!important;
+
+}
+.working_contract_add_form_field .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector
+.ant-select-selection-item{
+    color: rgba(0, 0, 0, 0.25)!important;
+}
+
+.add_employee_disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}

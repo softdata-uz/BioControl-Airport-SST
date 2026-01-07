@@ -1,0 +1,32 @@
+.table_pagination{
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prproviding_content_top_right{
+    padding: 0 5px!important;
+}
+.add_link_style span{
+    margin-left: 8px;
+}
+.pagenation_delete_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .table_pagination{
+        height: calc(100vh - 160px);
+    }
+}
+
+
+
+
+
+
+
+

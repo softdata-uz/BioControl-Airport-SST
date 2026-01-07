@@ -1,0 +1,83 @@
+
+.access_control_add_staff_modal_body_item_right {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100%;
+}
+
+.staff_middle_table .ant-table table {
+    width: 99% !important;
+}
+
+.access_control_add_staff_modal_body_item_right_buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-top: 8px;
+    width: 100%;
+
+}
+
+.access_control_add_staff_modal_body_item_right_buttons .add_idcard_button {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #ABFCC8;
+    color: #00752A;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.add_idcard_button:hover{
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+.delete_idcard_button  {
+    cursor: pointer;
+    border: none;
+    padding: 0px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    background: #FFDEDE;
+    color: #AC0000;
+}
+.delete_idcard_button:hover{
+    background: #DB4040;
+    color: #FFFFFF;
+}
+
+.access_control_add_staff_modal_body_item_right_buttons button:hover {
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 1470px) {
+   .add_idcard_button{
+       height: 35px!important;
+   }
+    .delete_idcard_button{
+        height: 35px!important;
+    }
+    .seave_idcard_modal_button{
+        height: 35px!important;
+    }
+    .access_control_add_staff_terminal_modal_title{
+        font-size: 26px!important;
+    }
+    .fingerprint_button{
+        height: 35px!important;
+    }
+    .fingerprint_buttonaccess_control_add_staff_fingerprint_bInput{
+        margin: 10px 0;
+    }
+    .addFinger_button{
+        height: 35px!important;
+    }
+}

@@ -1,0 +1,633 @@
+.door_control {
+
+    /*border-top: 1px solid #E9EAEB;*/
+    /*border-left: 1px solid #E9EAEB;*/
+    background: #FDFDFD;
+
+    /* Shadows/shadow-xs */
+    /*box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);*/
+    height: 100vh;
+
+}
+
+.door_control_header {
+    height: 80px;
+    width: 100%;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.door_control_header_inner {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.door_control_header_inner_left {
+
+}
+
+.door_control_header_inner_right {
+    display: flex;
+    align-items: center;
+}
+
+.door_control_header_inner_right_grid {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.door_control_header_inner_right_grid_Text {
+    margin-right: 12px;
+}
+
+.door_control_header_inner_right_grid_Text p {
+    color: #717680;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24;
+}
+
+.door_control_header_inner_right_grid_grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+    align-items: center;
+}
+
+.door_control_header_inner_right_grid_grids_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.door_control_header_inner_right_grid_grids_inner:hover {
+    /*background-color: #fff;*/
+    border: 1px solid #17b26a;
+    border-radius: 8px;
+}
+
+.grid_active {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #17b26a;
+}
+
+.door_control_header_inner_right_time {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e9eaeb;
+    box-sizing: border-box;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #182230;
+    padding: 12px 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.door_control_header_inner_right_button {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #17B26A;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.door_control_header_inner_right_button img {
+    margin-right: 8px;
+}
+.door_control_header_inner_right_delete {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #FDA29B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
+    color: #B42318;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.door_control_header_inner_right_delete img {
+    margin-right: 8px;
+}
+
+
+.door_control_body {
+    height: calc(100vh - 110px);
+    padding: 0 24px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    /*background: green;*/
+}
+
+.door_control_bottom {
+    height: 30px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.door_control_bottom p {
+    color: #717680;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.door_control_bottom p span {
+    color: #717680;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.door_control_body_inner {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Gorizontal bo'ylab 2 ustun */
+    grid-template-rows: 1fr 1fr; /* Vertikal bo'ylab 2 qator */
+    grid-gap: 24px;
+    margin: 0; /* Marginni olib tashlash */
+    padding: 0; /* Paddingni olib tashlash */
+}
+
+
+.door_control_body_inner_card {
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.card_red_border{
+    border : 1px solid #F04438;
+}
+
+.door_control_body_inner_card_inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    grid-gap: 24px;
+    grid-template-rows: 1fr;
+}
+
+.door_control_body_inner_card_inner_left {
+    border-radius: 8px;
+    border: 1px solid #E9EAEB;
+    display: flex;
+    justify-content: center; /* Matnni gorizontal markazlash */
+    align-items: center; /* Matnni vertikal markazlash */
+    overflow: hidden; /* Karta tashqarisidagi kontentni yashirish */
+    box-sizing: border-box;
+}
+
+.door_control_body_inner_card_inner_left img {
+    width: 100%;
+    height: 334px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.door_control_body_inner_card_inner_left_noImg{
+    width: 150px!important;
+    height: 150px!important;
+}
+
+
+.door_control_body_inner_card_inner_left_notUser {
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.door_control_body_inner_card_inner_left_notUser img {
+    width: 150px;
+    height: 150px;
+}
+
+.door_control_body_inner_card_inner_left_notUser_text {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #FEF3F2;
+    margin-top: 16px;
+}
+
+.door_control_body_inner_card_inner_left_notUser_text p {
+    color: #B42318;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.door_control_body_inner_card_inner_right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+}
+
+.door_control_body_inner_card_inner_right_inner {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    border-bottom: 1px solid #EAECF0;
+    align-items: center;
+}
+.ant-tooltip-inner{
+    border-radius: 8px!important;
+    background: #0A0D12;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.ant-tooltip-arrow-content{
+    background: #0A0D12;
+}
+.door_control_body_inner_card_inner_right_innerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAECF0;
+}
+
+.door_control_body_inner_card_inner_right_inner_door {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #F5F5F5;
+    color: #344054;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.door_control_body_inner_card_inner_right_inner_checked {
+
+}
+
+.door_control_body_inner_card_inner_right_inner_noBody {
+    display: flex;
+    padding: 2px 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #FEDF89;
+    background: #FFFAEB;
+    width: 120px;
+    color: #B54708;
+    text-align: center;
+
+    /* Text sm/Semibold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.door_control_body_inner_card_inner_right_inner span {
+    color: #344054;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.door_control_body_inner_card_inner_right_inner p {
+    color: #344054;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+
+
+    width: 100%;
+    white-space: nowrap; /* Matnni bitta qator bilan cheklaydi */
+    overflow: hidden;    /* Sig'magan qismni yashiradi */
+    text-overflow: ellipsis; /* Oxiriga "..." qo'shadi */
+}
+
+.door_control_body_inner_card_inner_add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.door_control_body_inner_card_inner_add_inner img{
+    /*width: 150px;*/
+    /*height: 150px;*/
+}
+.door_control_body_inner_card_inner_add_inner p{
+    color: #344054;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px; /* 55.556% */
+}
+.door_control_body_inner_card_inner_add_inner button{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #17B26A;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+
+/*onesess*/
+.door_control_body_inner_oneness {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr; /* Gorizontal bo'ylab 2 ustun */
+    grid-template-rows: 1fr; /* Vertikal bo'ylab 2 qator */
+    margin: 0; /* Marginni olib tashlash */
+    padding: 0; /* Paddingni olib tashlash */
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card {
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    grid-gap: 24px;
+    grid-template-rows: 1fr;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left {
+    border-radius: 8px;
+    border: 1px solid #E9EAEB;
+    /*background: yellow;*/
+    display: flex;
+    justify-content: center; /* Matnni gorizontal markazlash */
+    align-items: center; /* Matnni vertikal markazlash */
+    overflow: hidden; /* Karta tashqarisidagi kontentni yashirish */
+    height: 750px;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left img {
+    width: 100%;
+    height: 750px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left_notUser{
+    width: 300px;
+    height: 300px;
+}
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left_noImg{
+    width: 300px!important;
+    height: 300px!important;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0px;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    border-bottom: 1px solid #EAECF0;
+    align-items: center;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner span {
+    color: #344054;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner p {
+    color: #344054;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 100%;
+    white-space: nowrap; /* Matnni bitta qator bilan cheklaydi */
+    overflow: hidden;    /* Sig'magan qismni yashiradi */
+    text-overflow: ellipsis; /* Oxiriga "..." qo'shadi */
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner_check {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #F04438;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner_check p {
+    color: #414651;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner_check img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_innerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAECF0;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner_door {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #F5F5F5;
+    color: #344054;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner_checked {
+
+}
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_right_inner_noBody {
+    display: flex;
+    padding: 14px 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #FEDF89;
+    background: #FFFAEB;
+    width: 220px;
+    color: #B54708;
+    text-align: center;
+
+    /* Text sm/Semibold */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left_notUser {
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left_notUser img {
+    width: 300px;
+    height: 300px;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left_notUser_text {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #FEF3F2;
+    margin-top: 40px;
+}
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_left_notUser_text p {
+    color: #B42318;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_add_inner {
+    /*width: 150px;*/
+    /*height: 150px;*/
+    text-align: center;
+}
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_add_inner p{
+    color: #344054;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px; /* 55.556% */
+}
+.door_control_body_inner_oneness .door_control_body_inner_card_inner_add_inner button{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background: #17B26A;
+    border-radius: 8px;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 40px auto;
+}
+.door_control_body_inner_oneness .card_red_border{
+    border : 1px solid #F04438;
+}

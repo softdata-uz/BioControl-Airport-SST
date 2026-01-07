@@ -1,0 +1,196 @@
+.add_door_modal {
+    width: 560px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+
+.add_door_modal_inner {
+
+}
+
+.add_door_modal_inner_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E9EAEB;
+    height: 50px;
+}
+
+.add_door_modal_inner_head_deleteIcon {
+    border-radius: 50%;
+    background: #FEE4E2;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_door_modal_inner_head p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.add_door_modal_inner_body {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E9EAEB;
+    max-height: 450px;
+    overflow-y: auto;
+    display: grid;
+    /*grid-template-rows: auto;*/
+    grid-row-gap: 20px;
+}
+.add_door_modal_inner_body h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.add_door_modal_inner_body_inner {
+    height: 72px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+}
+.add_door_modal_inner_body_inner:hover {
+    border: 2px solid #17B26A;
+    background: #FFF;
+}
+
+.active_add_door_modal {
+    border: 2px solid #17B26A;
+}
+
+.add_door_modal_inner_body_inner_left {
+    display: flex;
+    align-items: start;
+}
+
+.add_door_modal_inner_body_inner_left .ant-radio-wrapper .ant-radio-inner {
+    /*width: 20px;*/
+    /*height: 20px;*/
+}
+
+.add_door_modal_inner_body_inner_right {
+    margin-left: 5px;
+}
+
+.add_door_modal_inner_body_inner_right p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    /*line-height: 10px;*/
+}
+
+.add_door_modal_inner_body_inner_right span {
+    color: #414651;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /*line-height: 0px;*/
+}
+
+
+.add_door_modal_inner_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+    align-items: center;
+}
+
+.add_door_modal_inner_footer_leftButton {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    color: #414651;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.add_door_modal_inner_footer_rightButton {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #17B26A;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.add_door_modal_inner_footer_rightButton_delete {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #D92D20;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.mymodalDoor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid #ccc;*/
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+}
+
+.myoverlayDoor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 100;
+}

@@ -1,0 +1,109 @@
+.add_employees{
+    padding: 12px 16px;
+}
+.add_employees_forms_title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.add_employees_forms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.add_employees_forms .add_employee_button {
+    max-width: 1fr;
+    margin-top: 30px;
+}
+
+.two_datePicker{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.add_relatives_title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.add_employees .ant-form-item-label > label .ant-form-item-optional{
+   display: none;
+}
+.employees_fish_search .multi_search_select{
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+.employees_fish_search{
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    align-items: flex-end;
+}
+
+.employees_fish_search .add_employee_button_right{
+    height: 36px;
+    margin-bottom: 10px;
+}
+.add_employee_button span{
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.add_employees_fullname{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-overflow: ellipsis;
+}
+.add_employees_forms .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    background: #F5F5F5!important;
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .employees_fish_search .add_employee_button_right{
+        height: 30px;
+        margin-bottom: 4px;
+    }
+    .add_employees{
+        padding: 8px 12px;
+    }
+    .add_employee_button span{
+        max-width: 210px;
+    }
+    .add_employees_forms{
+        gap: 12px;
+    }
+    .two_datePicker{
+        gap: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

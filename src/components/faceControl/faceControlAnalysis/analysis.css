@@ -1,0 +1,366 @@
+.analysis-container {
+    width: calc(100% - 0px);
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F2F5;
+}
+.analysis_header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.anaylsis-button-group {
+    display: flex;
+}
+
+.anaylsis-button-group button{
+    height: 40px;
+    padding: 0 20px;
+    /*border: none;*/
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #9EAEC5;
+    transition: all 0.3s ;
+}
+
+.analysis-active-button {
+    background-color: #29B85D !important;
+    color: #fff !important;
+}
+.analysis_Unactive_button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+.anaylsis-button-group button:hover{
+    background-color: #efefef;
+}
+
+.anaylsis-button-group button:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*--JINS BO'YICHA KO'RSATKICHLAR ayol erkak---*/
+
+
+
+.analysis-top {
+    width: 100%;
+    display: grid;
+}
+.analysis-top .fPDpuU {
+     margin: 0;
+}
+
+.analysis-top-item {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 0px !important;
+    background-color: #FFFFFF;
+}
+
+.analysis-top-item h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.analysis-top-item > .doors_title > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #9EAEC5;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+.analysis-top-item > .doors_title > h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.doors_title{
+    display: flex;
+    flex-direction: row;
+}
+.analysis-top-item-text {
+    display: flex;
+    align-items: center;
+}
+
+.analysis-top-item-text p:first-child{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.analysis-top-item-text p:last-child{
+    font-size: 14px;
+    color: #29B85D;
+    margin-left: 10px;
+}
+
+/* --- body --- */
+
+.analysis-body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-bottom: 0 !important;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.analysis-body-text-block {
+    width: 100%;
+    /* max-width: 400px; */
+    /* background-color: red; */
+}
+
+.analysis-body-chart-block {
+    margin-top: 10px;
+    width: calc(100% - 0px) !important;
+}
+
+.analysis-container h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #9EAEC5;
+}
+
+.analysis-body-text-block p {
+    font-size: 16px;
+}
+
+.analysis-body-text-block  p:nth-child(2) {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.analysis-body-text-block  p:nth-child(3) {
+    color: #29B85D !important;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.analysis-body-text-block  p:nth-child(4) {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* --- footer --- */
+.analysis-footer {
+    /* width: 100%; */
+    display: flex;
+    max-width: calc(100% - 0px) !important;
+    margin-top: 20px;
+}
+
+
+.analysis-footer-left {
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.analysis-footer-right {
+    flex-basis: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 10px 0 10px ;
+}
+.pieChart_title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.chart_title{
+    display: flex;
+}
+.title_round{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 5px;
+    background-color: #29b85d;
+}
+
+
+
+.gender_top{
+    display: flex;
+    justify-content: space-between;
+}
+.man_woman{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.manWoman{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.man_square{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(62, 130, 247);
+    margin-right: 5px;
+}
+.woman_square{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(204, 116, 185);
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.gender_count{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 3px;
+}
+
+
+
+.apx-legend-position-right{
+    width: 2px!important;
+    display: none !important;
+    background-color: #29b85d!important;
+}
+
+.apx-legend-position-bottom{
+    display: none!important;
+}
+
+/*------carousel-----*/
+.prev{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    width: 25px;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.nexprev{
+    border: none;
+    outline: none;
+    height: 0;
+}
+.gZZBOx {
+    display: none!important;
+}
+
+.line_chart{
+    width: 100%;
+    height: 460px;
+}
+.circle_chart{
+    width: 100%;
+}
+
+.apexcharts-text .apexcharts-datalabel-label{
+color: #920000!important;
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .analysis_header{
+        margin: 4px 0;
+    }
+    .anaylsis-button-group button{
+        height: 30px;
+        padding: 0 10px;
+    }
+    .buttons_analysis .anaylsis-button-group .ant-picker {
+        height: 30px!important;
+    }
+    .analysis-active-button {
+        font-size: 14px;
+    }
+    .null{
+        font-size: 14px;
+    }
+    .analysis-top-item{
+        width: 363px!important;
+        margin-bottom: 10px;
+    }
+    .analysis-top-item > .doors_title > h2 {
+        font-size: 12px;
+    }
+    .analysis-top-item-text p:first-child{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .analysis-container h2 {
+        font-size: 14px;
+    }
+    .analysis-body-text-block  p:nth-child(2) {
+        font-size: 14px;
+    }
+    .analysis-footer-title{
+        font-size: 14px!important;
+    }
+    .analysis-footer {
+        margin-top: 10px;
+    }
+    .analysis-footer-left {
+        margin-right: 10px;
+    }
+    .pieChart_title .chart_title p{
+        font-size: 14px;
+
+    }
+    .manWoman p{
+        font-size: 14px;
+    }
+    .man_square{
+        width: 12px;
+        height: 12px;
+    }
+    .woman_square{
+        width: 12px;
+        height: 12px;
+    }
+    .line_chart{
+        width: 100%;
+        height: 350px;
+    }
+    .circle_chart{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

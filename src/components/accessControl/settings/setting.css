@@ -1,0 +1,294 @@
+.access_control_setting {
+    width: 100%;
+    height: calc(100vh - 64px);
+    padding: 10px;
+}
+
+.access_control_setting_body {
+    width: 100%;
+    margin-top: 10px;
+    height: calc(100% - 40px);
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #EAEAEA;
+    background-color: #fff;
+    position: relative;
+}
+
+.filter_select{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 9;
+    top: -48px;
+    right: 4%;
+}
+
+.filter_select .ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    width: 220px!important;
+    height: 32px!important;
+}
+
+.filter_select .access_report_content_top_right{
+    margin-right: 12px;
+}
+
+.select_search_button{
+    height: 30px;
+    padding: 0px 10px;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+/* tabs */
+
+.access_control_setting_tab_item {
+    width: 100%;
+    height: calc(100vh - 191px);
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+
+.access_control_setting_tab_item_single {
+    grid-template-rows: 1fr 0px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #29B85D !important;
+}
+
+.ant-tabs-tab:hover .ant-tabs-tab-btn {
+    color: #28ad59 !important;
+}
+
+.access_control_setting_tab_item_body {
+    overflow: auto;
+}
+
+.access_control_setting_tab_item_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.access_control_setting_tab_item_footer_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.access_control_setting_tab_item_footer_buttons .access_delet_button {
+    cursor: pointer;
+    border: none;
+    padding: 0px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    background: #FFDEDE;
+    color: #AC0000;
+    display: flex;
+    align-items: center;
+}
+.access_delet_button:hover{
+    background: #DB4040;
+    color: #FFFFFF;
+}
+
+.counts_pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.active_inactive_counts{
+    display: flex;
+    flex-direction: row;
+    /*margin-right: 20px;*/
+}
+.active_inactive{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 10px !important;
+}
+
+.active_doorname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.active_round{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #26BF56;
+    margin-right: 4px;
+}
+
+.inactive_round{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FD1212;
+    margin-right: 4px;
+}
+
+.access_control_setting_tab_item_footer_buttons button:hover {
+    opacity: 0.9;
+}
+
+.access_control_setting_tab_item_footer_buttons .add_button {
+    margin-right: 8px;
+    height: 40px;
+    padding: 0px 10px;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+.add_button:hover{
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+.edit_button {
+    width: 45px;
+    height: 35px;
+    color: #29B85D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+.edit_button:hover {
+    background-color: #29B85D;
+    color: #FFFFFF;
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+
+.door_ip_length {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.door_ip_length:hover {
+    background-color: #efefef;
+}
+
+
+.door_ip_length_hover {
+    position: absolute;
+    white-space: nowrap;
+    top: -40px;
+    left: 50%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transform: translate(-50%, 0);
+    background-color: #29B85D;
+    color: #fff;
+    opacity: 0;
+    z-index: 100;
+    transition: all ease-in-out 0.3s;
+}
+
+.door_ip_length_hover_rectangel {
+    width: 20px;
+    height: 20px;
+    background-color: #29B85D;
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    z-index: -1;
+    transform: rotate(45deg) translate(-50%, 10%);
+}
+
+.door_ip_length:hover> .door_ip_length_hover{
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .access_control_setting {
+        height: calc(100vh - 64px);
+        padding: 8px;
+    }
+
+    .access_control_setting_body {
+        margin-top: 5px;
+        height: calc(100% - 22px);
+    }
+    .filter_select{
+        top: -44px;
+    }
+    .access_control_setting_tab_item_footer_buttons button {
+        padding: 0px 10px;
+        height: 35px;
+    }
+    .add_button{
+        height: 35px!important;
+    }
+    .access_control_setting_tab_item {
+        height: calc(100vh - 160px);
+    }
+    .access_control_add_staff_terminal_modal_body_buttons {
+        margin-top: 10px;
+    }
+}
+
+
+
+.access_report_content_top_right{
+    background: red;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+.report_content_top_search input:not([type='range']){
+border: none!important;
+    outline: none;
+}
+
+
+
+@media(max-width: 1470px) {
+  .filter_select .access_report_content_top_right{
+        height: 32px;
+    }
+}
+
+
+
+
+
+

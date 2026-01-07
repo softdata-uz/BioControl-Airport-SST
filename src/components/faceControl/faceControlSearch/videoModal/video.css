@@ -1,0 +1,60 @@
+.loading_title{
+    width: 520px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+
+.player_modal{
+    position: relative;
+}
+.player_modal_button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+.player_modal_button button{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #26BF56;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #26BF56;
+}
+.sec_active_button{
+    background: #26BF56!important;
+    color: #FFFFFF!important;
+}
+
+.player_modal_loading{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 50;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 5;
+    transition: opacity 0.3s;
+}
+.video-react-button{
+    /*display: none!important;*/
+}
+.video-react-big-play-button{
+    display: none!important;
+}
+/*video-react-big-play-button video-react-big-play-button-center*/

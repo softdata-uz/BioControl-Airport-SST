@@ -1,0 +1,82 @@
+.access_control_add_staff_modal_body_item_fingerprint{
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100%;
+}
+.access_control_add_staff_modal_body_item_fingerprint_buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    width: 100%;
+}
+ .add_finger_button {
+    height: 40px;
+    padding: 0px 40px;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+     cursor: pointer;
+}
+.add_finger_button:hover{
+    background: #29B85D;
+    color: #FFFFFF;
+}
+.add_finger_button img{
+    filter: brightness(0) saturate(100%) invert(24%) sepia(85%) saturate(1983%) hue-rotate(132deg) brightness(85%) contrast(105%);
+}
+.add_finger_button:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(59%) saturate(275%) hue-rotate(274deg) brightness(112%) contrast(100%);
+}
+.access_control_add_staff_modal_body_item_fingerprint_buttons button:last-child {
+    background: #FFDEDE;
+    color: #AC0000;
+    border: none;
+    border-radius: 5px;
+}
+.access_control_add_staff_modal_body_item_fingerprint_buttons button:last-child:hover{
+    background: #DB4040;
+    color: #FFFFFF;
+}
+.access_control_add_staff_modal_body_item_fingerprint_buttons button:hover {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1470px) {
+    .add_finger_button{
+        height: 35px!important;
+    }
+    .delete_finger_button{
+        height: 35px!important;
+    }
+}
+
+
+
+
+
+
+
+
+

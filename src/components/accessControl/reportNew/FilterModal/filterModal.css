@@ -1,0 +1,94 @@
+.filter_car_modal {
+    width: 600px;
+    padding: 20px;
+}
+
+.filter_car_modal_tile {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.ant-radio-group {
+    margin-bottom: 10px;
+}
+
+.filter_car_input_lebel_groups {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    grid-column-gap: 15px;
+    /*margin-bottom: 10px;*/
+}
+
+.car_input_wrapper {
+    width: 100%
+}
+
+.car_input_label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    margin-bottom: 2px !important;
+    margin-top: 7px !important;
+}
+
+.filter_car_input_lebel_groups input {
+    border-radius: 5px;
+}
+
+.car_input_lebel_left{
+    width: 100%;
+}
+/*.car_input_from_to{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    grid-column-gap: 10px;*/
+/*}*/
+.car_input_from_to_row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    grid-column-gap: 10px;
+}
+
+.car_input_lebel_right{
+    width: 100%;
+    /*background: #0A194E;*/
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1470px) {
+    .car_input_label {
+        font-size: 14px;
+        margin-bottom: 0px !important;
+        margin-top: 8px !important;
+    }
+}
+.ant-select-selector{
+    height: 30px;
+
+}
+.ant-select-selection-overflow{
+    padding-bottom: 3px;
+}
+.ant-select-selection-item{
+    height: 22px!important;
+}
+.ant-select-selection-overflow-item{
+    height: 24px!important;
+    padding: 0;
+    margin-bottom: 3px;
+}

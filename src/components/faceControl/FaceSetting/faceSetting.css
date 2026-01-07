@@ -1,0 +1,377 @@
+.face_control_setting {
+    width: 100%;
+    height: calc(100vh - 64px);
+    padding: 10px;
+}
+
+.face_control_setting_body {
+    width: 100%;
+    margin-top: 10px;
+    height: calc(100% - 40px);
+    border-radius: 5px;
+    /*border: 1px solid #EAEAEA;*/
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+/* tabs */
+
+.face_control_setting_tab_item {
+    width: 100%;
+    height: calc(100vh - 187px);
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+.face_control_setting_tab {
+    display: grid;
+    grid-template-columns: 6fr 1.8fr;
+    grid-gap: 10px;
+}
+
+.Telegram_bot_tab {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 10px;
+
+}
+
+.Telegram_bot_tab_inner {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    align-items: flex-start;
+}
+.Telegram_bot_tab_input{
+    width: 100%;
+}
+.Telegram_bot_tab_inner_form{
+
+}
+.telegram_bot_search_button{
+    /*display: flex;*/
+    /*align-items: center;*/
+    width: 150px;
+    margin-top: 30px;
+}
+@media(max-width: 1470px) {
+ .telegram_bot_search_button{
+     margin-top: 34px;
+ }
+}
+
+.telegram_bot_search_button .add_camera_buttons_save {
+    width: 100%;
+}
+
+.face_control_setting_tab_item_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding-top: 10px;*/
+}
+
+/*---Camera parkingSettingIndentification right--*/
+
+.camera_groups {
+    display: grid;
+    align-content: space-between;
+    padding: 10px;
+    max-height: calc(100vh - 193px);
+    border: 1px solid #E5EAFA;
+    border-radius: 5px;
+}
+
+.camera_groups_add_new_group_table {
+    overflow: auto;
+    border-radius: 3px;
+    /*background-color: #1E1E1E;*/
+}
+
+.camera_groups_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 5px;
+    border-bottom: 1px solid #E5EAFA;
+}
+
+.camera_groups_item h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0A194E;
+}
+
+.camera_groups_item_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #FFDEDE;
+    border-radius: 5px;
+    border: none;
+    color: #8B0606;
+    cursor: pointer;
+}
+
+/*table*/
+.camera_delite_button {
+    width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.face_control_setting_button {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.face_control_setting_button:hover {
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+.add_new_group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.camera_groups_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #00752A;
+    background: #ABFCC8;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.camera_groups_button:hover {
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+.group_delite_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AC0000;
+    background: #FFDEDE;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.group_delite_button:hover {
+    background: #DB4040;
+    color: #FFFFFF;
+}
+
+.camera_groups_button_cancle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    width: 100%;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AC0000;
+    background: #FFDEDE;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.camera_groups_button_cancle:hover {
+    background: #DB4040;
+    color: #FFFFFF;
+}
+
+.camera_groups_language {
+    padding: 8px 8px 0 8px;
+    border: 1px solid #9EAEC5;
+    border-radius: 5px;
+    margin-top: 10px !important;
+}
+
+.camera_groups_language .ant-input-affix-wrapper {
+    border: 1px solid #d9d9d9;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.camera_language_input {
+    margin-bottom: 5px;
+    border: none;
+}
+
+.camera_groups_language .ant-input {
+    margin: 3px 5px;
+    height: 30px !important;
+}
+
+.face_control_setting_tab_item_footer_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face_control_setting_footer_delite_button {
+    cursor: pointer;
+    border: none;
+    padding: 0px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    color: #AC0000;
+    display: flex;
+    align-items: center;
+    background-color: #FFDEDE;
+    margin-left: 15px;
+}
+
+.face_control_setting_footer_delite_button:hover {
+    background: #DB4040;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.add_new_group_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .face_control_setting {
+        padding: 8px;
+    }
+
+    .face_control_setting_body {
+        margin-top: 5px;
+        height: calc(100% - 22px);
+    }
+
+    .face_control_setting_tab {
+        display: grid;
+        grid-template-columns: 6fr 1.9fr;
+        grid-gap: 10px;
+    }
+
+    .face_control_setting_tab_item {
+        height: calc(100vh - 155px);
+    }
+
+    .face_control_setting_button {
+        height: 35px;
+    }
+
+    .face_control_setting_footer_delite_button {
+        height: 35px;
+    }
+
+    .face_control_setting_tab_item_footer {
+        margin-right: 5px;
+    }
+
+    .camera_groups {
+        padding-bottom: 6px;
+        max-height: calc(100vh - 160px);
+    }
+
+    .camera_groups_language {
+        padding: 4px;
+    }
+
+    .camera_groups_language .ant-input {
+        margin: 0px 5px;
+        height: 22px;
+    }
+
+    .camera_language_input {
+        margin-bottom: 0 !important;
+    }
+
+    .camera_groups_button {
+        height: 35px;
+        margin-right: 2px;
+    }
+
+    .camera_groups_button_cancle {
+        height: 35px;
+        margin-top: 0px;
+        margin-left: 3px;
+    }
+
+    .add_new_group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group_delite_button {
+        width: 100%;
+        height: 35px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .add_new_group_buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4px;
+    }
+
+    /*.telegram_bot_search_button .add_camera_buttons_save {*/
+    /*    margin-bottom: 3px;*/
+    /*}*/
+}
+
+
+

@@ -1,0 +1,153 @@
+.working_holiday {
+    width: 100%;
+    height: calc(100vh - 64px);
+    padding: 10px;
+}
+
+.working_holiday_header {
+    display: flex;
+    align-items: center;
+}
+
+.working_holiday_body {
+    height: calc(100vh - 120px);
+    background: #FFFFFF;
+    border-radius: 5px;
+    overflow: auto;
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.working_holiday_body_addJob{
+    height: calc(100vh - 120px);
+    background: #FFFFFF;
+    border-radius: 5px;
+    overflow: auto;
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@media (max-width: 1500px) {
+    .working_holiday_body {
+        height: calc(100vh - 100px);
+    }
+    .working_holiday_body_addJob {
+        height: calc(100vh - 100px);
+    }
+}
+
+.working_holiday_body_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.working_holiday_body_title_search {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #F1F2F4;
+    background: #FFF;
+    padding: 5px;
+    color: black;
+    height: 100%;
+}
+
+.working_holiday_body_title_search input {
+    border: 0;
+    outline: none;
+    margin-left: 5px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.working_holiday_body_title_search input::placeholder {
+    color: black !important;
+}
+
+.working_holiday_body_title_right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.working_holiday_body_title_right_filter {
+    border-radius: 5px;
+    border: 1px solid #F1F2F4;
+    background: #FFF;
+    display: flex;
+    width: 180px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.working_holiday_body_title_right_add {
+    display: flex;
+    /*width: 200px;*/
+    height: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    background: #ABFCC8;
+    color: #00752A;
+    cursor: pointer;
+}
+.working_holiday_body_title_right_add span{
+    margin-left: 8px;
+}
+
+.working_holiday_body_title_right_add:hover {
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+.working_holiday_body_table {
+    margin-top: 10px;
+    height: calc(100vh - 185px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /*margin-top: 10px;*/
+    /*height: calc(100% - 45px);*/
+    /*overflow: auto;*/
+    /*position: relative;*/
+}
+
+.working_holiday_body_table_pagination {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    /*width: fit-content; !* Use fit-content if supported *!*/
+    /*background: #FFFFFF;*/
+
+}
+
+
+
+@media only screen and (max-width: 1470px) {
+    .working_holiday_body_table{
+        height: calc(100vh - 165px);
+    }
+}

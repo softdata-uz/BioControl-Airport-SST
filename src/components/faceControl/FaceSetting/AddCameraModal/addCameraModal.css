@@ -1,0 +1,245 @@
+.camera_settings_modal_content {
+    width: 900px !important;
+    padding: 20px 25px !important;
+}
+
+.camera_settings_modal_content_inner_h4 {
+    display: grid;
+    grid-template-columns: 1fr 3fr !important;
+    grid-gap: 15px;
+}
+
+.camera_settings_modal_content_inner {
+    display: grid;
+    grid-template-columns: 1fr 3fr !important;
+    grid-gap: 15px;
+}
+
+.camera_settings_modal_content_left {
+
+}
+
+.camera_settings_modal_content_left_inner {
+    width: 100%;
+    height: 285px!important;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    /*background: red;*/
+    margin-top: 10px;
+    position: relative;
+}
+@media (max-width: 1470px) {
+    .camera_settings_modal_content_left_inner{
+        height: 262px!important;
+    }
+}
+
+.camera_settings_modal_content_left_inner path {
+    stroke: red;
+    width: 100%;
+}
+
+.camera_settings_modal_content_left_inner g {
+    display: none;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.camera_settings_modal_content_left_inner_upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.camera_settings_modal_content_left_inner_upload_inner{
+
+}
+
+.camera_settings_modal_content_left_inner_upload_inner h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.camera_settings_modal_content_left_inner_upload_inner p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828CA9;
+    margin-top: 10px !important;
+}
+
+.camera_settings_modal_content_left_inner_upload_inner .upload_button_icon {
+    background: #29B85D;
+    color: #FFFFFF
+}
+
+.camera_settings_modal_content_left_inner_upload_inner .upload_button {
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.camera_settings_modal_title {
+    display: flex;
+    /*justify-content: center;*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: start !important;
+}
+
+.settings_modal_input_label {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.aaa {
+    height: 20px;
+}
+
+.settings_modal_select .ant-select-selector {
+    height: 40px !important;
+}
+
+.setting_input_lebel_groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.setting_input_lebel_groups .ant-form-item {
+    margin-bottom: 0px !important;
+}
+
+.add_camera_buttons {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    grid-gap: 15px;
+    margin-top: 15px;
+}
+
+.add_camera_buttons_cancle {
+    height: 40px;
+    background: #FFDEDE;
+    color: #AC0000;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.add_camera_buttons_cancle:hover {
+    background: #DB4040;
+    color: #FFFFFF;
+}
+
+.add_camera_buttons_save {
+    height: 40px;
+    background: #ABFCC8;
+    color: #00752A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.add_camera_buttons_save:hover {
+    background: #29B85D;
+    color: #FFFFFF;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .camera_settings_modal_content {
+        width: 550px!important;
+        padding: 10px;
+    }
+
+    .camera_settings_modal_title {
+        margin-bottom: 3px;
+    }
+
+    .settings_modal_select .ant-select-selector {
+        height: 35px !important;
+    }
+
+    .settings_modal_input {
+        height: 35px !important;
+    }
+
+    .add_camera_buttons_cancle {
+        height: 35px;
+    }
+
+    .add_camera_buttons_save {
+        height: 35px;
+    }
+
+    .ant-form-item {
+        margin-bottom: 3px !important;
+    }
+
+    .add_camera_buttons {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+.dragItemCor {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    /*color: #000000;*/
+    /*color: #828CA9;*/
+    /*color: #29B85D;*/
+    color: red;
+}
+
+
+
+
+
